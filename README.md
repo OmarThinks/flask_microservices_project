@@ -1,6 +1,13 @@
 # flask_microservices_project
 Building a Microserviecs using Flask
 
+# References:
+
+1. Github Repo: 
+	- https://github.com/udacity/ud615  
+2. Udacity Course: 
+	- https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
+	- (This is a free course)
 
 # Services
 
