@@ -3,6 +3,6 @@ services:
   web:
     build:
       context: ../ping_service
-      dockerfile: ../docker/Dockerfile    
+      dockerfile: ../Docker/dockerfile_ping_service    
     ports:
       - "3000:5000"
