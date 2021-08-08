@@ -47,7 +47,7 @@ python services/hello_world_service/app.py
 ## Running with Docker:
 
 ```bash
-docker build --file ./Dockerfile  .
+docker build --file ./Dockerfile --tag ping_service  .
 ```
 
 
