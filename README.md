@@ -95,3 +95,12 @@ docker build --file ./Dockerfile  .
 
 
 
+# Using Docker
+
+<b>
+
+```bash
+docker-compose up --force-recreate --build -d
+```
+
+</b>

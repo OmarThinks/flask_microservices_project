@@ -1,8 +1,19 @@
 version: "3.9"
 services:
-  web:
+  service_hello_world:
+    image: service_image_hello_world:LatesT
+    container_name: service_container_hello_world
     build:
-      context: ../ping_service
-      dockerfile: ../Docker/dockerfile_ping_service    
+      context: ../service_hello_world
+      dockerfile: ../Docker/dockerfile_service_hello_world    
     ports:
       - "3000:5000"
+  service_ping:
+    image: service_image_ping:LatesT
+    container_name: service_container_ping
+    build:
+      context: ../service_ping
+      dockerfile: ../Docker/dockerfile_service_ping    
+    ports:
+      - "3001:5000"
+
