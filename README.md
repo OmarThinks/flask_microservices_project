@@ -1,15 +1,20 @@
-# flask_microservices_project
+# Flask Microservices Project:
 Building a Microserviecs using Flask
 
-# References:
+# A) Credits:
 
-1. Github Repo: 
-	- https://github.com/udacity/ud615  
-2. Udacity Course: 
+- Udacity Course: 
 	- https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615
 	- (This is a free course)
 
-# Services
+# B) Technologies Used:
+1. Python
+2. Flask
+3. Docker
+
+
+
+# C) Services:
 
 This consists of 2 sevices:
 
@@ -18,21 +23,19 @@ This consists of 2 sevices:
 
 
 
-# 1) Hello World Service:
+## C-1) Hello World Service:
 
-## Port: 
+### Port: 
 3000  
 
-## Endpoints:
+### Endpoints:
 
 ### 1) (GET) /
 Returns: Hello, World!  
 **http://127.0.0.1:3000/**
 
 
-
-
-## How to run:
+### How to run:
 
 <b>
 
@@ -44,22 +47,12 @@ python services/hello_world_service/app.py
 
 
 
-## Running with Docker:
+## 2) Ping Service:
 
-```bash
-docker-compose up --force-recreate --build -d
-```
-
-
-
-
-
-# 2) Ping Service:
-
-## Port: 
+### Port: 
 3001  
 
-## Endpoints:
+### Endpoints:
 
 ### 1) (GET) /ping
 Returns: Pong  
@@ -68,7 +61,7 @@ Returns: Pong
 
 
 
-## How to run:
+### How to run:
 
 <b>
 
@@ -80,11 +73,6 @@ python services/ping_service/app.py
 
 
 
-## Running with Docker:
-
-```bash
-docker build --file ./Dockerfile  .
-```
 
 
 
@@ -92,10 +80,12 @@ docker build --file ./Dockerfile  .
 
 
 
+# D) Using Docker
 
+There is a special folder called **Docker**.  
+This folder contains all the docker files.  
+To run this folder, CD to this folder, and run this command:
 
-
-# Using Docker
 
 <b>
 
