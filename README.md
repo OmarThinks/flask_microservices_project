@@ -44,6 +44,12 @@ python services/hello_world_service/app.py
 
 
 
+## Running with Docker:
+
+```bash
+docker build --file ./Dockerfile  .
+```
+
 
 
 
@@ -74,7 +80,11 @@ python services/ping_service/app.py
 
 
 
+## Running with Docker:
 
+```bash
+docker build --file ./Dockerfile  .
+```
 
 
 
