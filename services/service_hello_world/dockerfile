@@ -1,9 +1,9 @@
 FROM python:3.7.9
 ENV SECRET="docker change me"
 LABEL maintainer_name="Omar Magdy"
-COPY requirements.txt ../service_hello_world/requirements.txt
+COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
-COPY . ../service_hello_world
+COPY . .
 ENV FLASK_RUN_HOST=0.0.0.0
 ENV FLASK_APP=app
 ENV FLASK_ENV=development
