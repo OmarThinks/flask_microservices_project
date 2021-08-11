@@ -47,6 +47,11 @@ python services/hello_world_service/app.py
 
 
 
+
+
+
+
+
 ## 2) Ping Service:
 
 ### Port: 
@@ -80,7 +85,43 @@ python services/ping_service/app.py
 
 
 
-# D) Using Docker
+# D) Using Docker:
+
+
+## D-1) Generating the images:
+
+Inside the folder of each service, there is a file called:   
+**image_builder.sh**  
+When you double click this file , the image will be generated.  
+
+
+
+## D-2) Running the Containers:
+
+Go to this directory:  
+**services/Docker/containers**  
+There you will find three files:
+
+1. **container_builder__all.sh**
+	- This builds the containers of the images ofthe services
+2. **container_builder_hello_world.sh**
+	- This builds the container of service of the hello_world image
+3. **container_builder_ping.sh**
+	- This builds the container of service of the ping image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 There is a special folder called **Docker**.  
 This folder contains all the docker files.  
