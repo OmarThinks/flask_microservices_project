@@ -2,18 +2,18 @@ version: "3.9"
 services:
   service_hello_world:
     image: service_image_hello_world:1.0.0
-    container_name: service_container_hello_world
+    container_name: hello_world_service
     build:
-      context: ../service_hello_world
-      dockerfile: ../Docker/dockerfile_service_hello_world    
+      context: ../Services/service_hello_world/
+      dockerfile: dockerfile   
     ports:
       - "3000:5000"
   service_ping:
     image: service_image_ping:1.0.0
-    container_name: service_container_ping
+    container_name: ping_service
     build:
-      context: ../service_ping
-      dockerfile: ../Docker/dockerfile_service_ping    
+      context: ../Services/service_ping/
+      dockerfile: dockerfile
     ports:
       - "3001:5000"
 
