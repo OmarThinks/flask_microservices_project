@@ -100,7 +100,7 @@ When you double click this file , the image will be generated.
 ## D-2) Running the Containers:
 
 Go to this directory:  
-**services/Docker/containers**  
+**Docker/containers**  
 There you will find these files:
 
 1. **container_builder__all.sh**
@@ -111,10 +111,10 @@ There you will find these files:
 	- This builds the container of service of the ping image
 
 
-## D-3) deleting The Containers:
+## D-3) Deleting The Containers:
 
 In the same directory, as the previous article.  
-**services/Docker/containers**  
+**Docker/containers**  
 There you will find these files:
 
 
@@ -130,22 +130,24 @@ There you will find these files:
 
 
 
+## D-4) Docker Compose:
+
+
+Inside the folder **Docker**, there are 3 files:
 
 
 
 
+1. **compose.sh**
+	- Double clicking this file will compose the services
+2. **docker-compose.yml**
+	- This file contains the compose specifications
+3. **container_deleter__all.sh**
+	- Double clicking this file will delete all the compose containers
 
+Now using your browser, check these links:
+1. **http://127.0.0.1:3000/**
+	- The response will be : **Hello, World!**
+2. **http://127.0.0.1:3001/ping**
+	- The response will be : **Pong**
 
-
-There is a special folder called **Docker**.  
-This folder contains all the docker files.  
-To run this folder, CD to this folder, and run this command:
-
-
-<b>
-
-```bash
-docker-compose up --force-recreate --build -d
-```
-
-</b>
