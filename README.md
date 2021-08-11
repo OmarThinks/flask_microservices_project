@@ -11,6 +11,7 @@ Building a Microserviecs using Flask
 1. Python
 2. Flask
 3. Docker
+4. Kubernetes (K8S)
 
 
 
@@ -100,7 +101,7 @@ When you double click this file , the image will be generated.
 
 Go to this directory:  
 **services/Docker/containers**  
-There you will find three files:
+There you will find these files:
 
 1. **container_builder__all.sh**
 	- This builds the containers of the images ofthe services
@@ -110,6 +111,19 @@ There you will find three files:
 	- This builds the container of service of the ping image
 
 
+## D-3) deleting The Containers:
+
+In the same directory, as the previous article.  
+**services/Docker/containers**  
+There you will find these files:
+
+
+1. **container_deleter_all.sh**
+	- deletes all the containers related to the services
+2. **container_deleter_hello_world.sh**
+	- deletes the hello_world service container.
+3. **container_deleter_ping.sh**
+	- deletes the ping service container.
 
 
 
