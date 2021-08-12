@@ -53,7 +53,7 @@ python services/hello_world_service/app.py
 
 
 
-## 2) Ping Service:
+## C-2) Ping Service:
 
 ### Port: 
 3001  
@@ -150,4 +150,80 @@ Now using your browser, check these links:
 	- The response will be : **Hello, World!**
 2. **http://127.0.0.1:3001/ping**
 	- The response will be : **Pong**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# E) Kubernetes:
+
+
+
+## E-1) Creating Pods:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
