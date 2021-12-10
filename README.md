@@ -175,16 +175,6 @@ Now using your browser, check these links:
 
 
 
-# E) Kubernetes:
-
-
-I really wanted to Learn Kubernetes, but I faced Problems:
-
-
-1. I do not have any credit or debit card, so I can not test K8S on a Cloud.
-2. My local machine has only 4GB RAM, DDR3, So my device freezes when I try to run Kubernetes.
-
-<img src="Task Manager Cropped.gif">
 
 
 
